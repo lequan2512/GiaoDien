@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    @media all and (max-width: 320px) {
+        body {
+        background: #e7e7e7;
+        }
+    }
+@media all and (max-width: 480px) {
+    }
+@media all and (max-width: 1024px) {
+    }
+    #mau{
+        background-color: #990100;
+        padding:1em;
+        margin-top: 0px;
+    } 
+    #img{
+        width: 90px;
+        height: 70px;
+    }  
+    #chu{
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 0px;
+    }
+    #chu2{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 0px;
+    }
+    #mau2{
+        background-color: #1f487c;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 5px;
+        padding-top: 5px ;
+        text-align: left;
+    }     
+    #menu_bar{
+        color: white;
+        font-size: 12px;
+        text-align: right;
+    }
+    #menu_bar1{
+        color: white;
+        font-size: 12px;
+        text-align: right;
+    }
+    #hdr2{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 5px;
+    } 
+    #hdr2:hover{
+        background-color: yellow;
+    }
+    #p1{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    #tb{
+        margin-left: 200px;
+    }
+    #tb3{
+        margin-left: 200px;
+    }
+    #pg{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    #tb1{
+        text-align: center;
+        background-color: rgb(38,69,126) ;
+        color: white;
+        font-size: 14px;
+    }
+    #bt1:hover{
+        background-color: #930303;
+    }
+    #bt:hover{
+        background-color:#02cb00;
+    }
+    tr:hover{
+        background-color: #deedff;
+    }

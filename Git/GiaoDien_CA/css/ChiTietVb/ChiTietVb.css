@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #img{
+        width: 90px;
+        height: 70px;
+    }
+    #mau{
+        background-color: #990100;
+        padding:1em;
+        margin-bottom: 0px;
+    }   
+    #chu{
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 0px;
+    }
+    #chu2{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 15px;
+    }
+    #mau2{
+        background-color: #1f487c;
+        font-weight: bold;
+        text-align: right;
+        padding-bottom: 3px;
+        padding-top: 3px ;
+    } 
+    #hdr2{
+        font-size: 12px;
+        text-align: left;
+        padding-top: 5px;
+    }    
+    #hd1{
+        color: white;
+        font-size: 12px;
+        text-align: right;
+    }
+    #content{
+        margin-top: 40px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+    }
+    #label{
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #bt1{
+        margin-top: 30px;
+    }
+    #label1{
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    #label2{
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+
