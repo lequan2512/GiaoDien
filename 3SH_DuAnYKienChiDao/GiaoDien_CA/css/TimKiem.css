@@ -1,0 +1,217 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media all and (max-width: 480px) {
+}
+
+@media all and (max-width: 1024px) {
+}
+/* image */
+#img{
+    width: 90px;
+    height: 70px;
+}
+header{
+    display: block;
+}
+#t{
+    background-color: #990100;
+    padding:35px;
+    margin-bottom: 0px;
+
+}   
+#t1{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+#t2{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+#h{
+    background-color: #1f487c;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 3px;
+    padding-top: 3px ;
+} 
+#h1{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}    
+#h2{
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#hd1{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+#hd2{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+#row2 {
+    padding:20px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+    text-align: center;
+}
+#td1{
+    color: red;
+}
+th{
+    background-color:rgb(59, 59, 161) ;
+    color: white;
+}
+
+#red {
+    color: red;
+}
+tr:hover{
+    background-color: rgb(187, 197, 224);
+}
+
+.dropbtn {
+    background-color: #1f487c;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+#dr{
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}     
+.dropdown-content {
+    padding-top: 13px;
+    display: none;
+    position: absolute;
+    background-color: #1f487c;
+    min-width: 160px;
+    z-index: 1;
+    right: 0;
+    text-decoration: none;
+}
+.dropdown-content a {
+    color:white;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}   
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+footer { 
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(201, 231, 225);
+}
+#p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#row1 {
+    list-style-type: none;
+    padding:0%;
+    overflow: hidden;
+    background-color: rgb(59, 59, 161);
+}
+#button{
+    text-align: center;
+    margin-top: 15px;
+}
+#row3 {
+    padding:15px;
+    text-align:left;
+}
+#col1 {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+}   
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+th{
+    background-color: rgb(3, 66, 129);
+    color: white;
+    text-align: center;
+}
+td {
+    color: rgb(16, 79, 141);
+}
+tr:hover{
+    background-color: rgb(178, 201, 243);
+}
+#b {
+    background-color: rgb(3, 66, 129);
+}
+#d {
+    color: white;
+    text-align: left;
+}
+#e{
+    color: white;
+    text-align: right;
+}
+#f {
+    text-align: center;
+}
+#pg{
+    margin-top: 15px;
+    font-size: 15px;
+}
+tr{
+    margin-bottom: 20px;
+}
+#bt{
+    background-color: teal;
+
+}
+#bt1{
+    background-color: rgb(31, 165, 64);
+    color: white;
+    margin-top: 15px;
+}
+#bt2{
+    background-color: rgb(172, 41, 41); 
+    color: white;
+    margin-top: 15px;
+}
+#dr{
+    text-decoration: none;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TÌM KIẾM</title>
+    <link rel="stylesheet" type="text/css" href="../css/TimKiem.css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../img/l.png"
+    type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="row" id="t">
+                <div class="col-sm-1"><img id="img" src="../img/l.png" alt="img"></div>
+                <div class="col-sm-11">
+                    <p id="t1">CÔNG AN TỈNH THỪA THIÊN HUẾ</p>
+                    <p id="t2">THEO DÕI Ý KIẾN CHỈ ĐẠO VÀ VĂN BẢN BAN HÀNH </p>
+                </div>
+            </div>
+        </header>
+        <div class="row sticky-top" id="h">
+            <div class="col-sm-1" id="h1"><a id="hd1" href="../html/TrangChu.html">TRANG CHỦ</a></div>
+            <div class="col-sm-2" id="h1"><li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><a id="hd2" href="#link">THỐNG KÊ - BÁO CÁO</a></a>
+                <div class="dropdown-content">
+                    <a href="../html/Thongke.html" id="dr">Thống kê tổng quát</a>
+                    <a href="../html/ChiTietVb.html" id="dr">Chi tiết văn bản</a>
+                    <a href="../html/Themmoi.html" id="dr">Thêm mới - chỉnh sửa</a></div>
+            </li></div>
+            <div class="col-sm-1" id="h1" style="background-color: yellow; color:black;><a id="hd1"
+                href="../html/TimKiem.html">TÌM KIẾM</a></div>
+            <div class="col-sm-2" id="h1"><a id="hd1" href="DSNhiemvu.html">NHIỆM VỤ CHỜ DUYỆT</a>
+            </div>
+            <div class="col-6" style="text-align:right" id="h2"><li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><a id="hd2" href="#link"><i
+                        class="fa fa-user"></i> CHỈ HUY A</a></a>
+                <div class="dropdown-content">
+                    <a href="#" id="dr">Quản lý tài khoản</a>
+                    <a href="../html/Login.html" id="dr">Đăng xuất</a>
+                </div>
+            </li> 
+            </div></div>
+        <div class="row">
+            <div class="col">
+                <p id="p">DANH SÁCH TÌM KIẾM</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Nội dung nhiệm vụ, văn bản</label>
+                        <input type="text" class="form-control" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Loại văn bản</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Ngày ban hành</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Số công văn</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Lãnh đạo ký</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Đơn vị được giao</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-4">
+                <form>
+                    <div class="form-group">
+                        <label for="text">Trạng thái</label>
+                        <input type="text" class="form-control" id="text" name="text">
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row" id="button">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <button type="button" class="btn btn-primary" id ="bt">Tìm kiếm</button>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <p id="p">DANH SÁCH TÌM KIẾM</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <table style="width:100%;">
+                    <tr>
+                        <th>STT</th>
+                        <th>DANH SÁCH NHIỆM VỤ ĐƯỢC GIAO</th>
+                        <th>LÃNH ĐẠO KÝ</th>
+                        <th>ĐƠN VỊ</th>
+                        <th>HẠN HOÀN THÀNH</th>
+                        <th>TÌNH TRẠNH</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Nhiệm vụ 1...</td>
+                        <td>Giám đốc</td>
+                        <td>Phòng PV01, PH10</td>
+                        <td>dd/mm/yyyy</td>
+                        <td>1/2 hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nhiệm vụ 2...</td>
+                        <td>Đ/c Lê Văn Vũ - PGĐ</td>
+                        <td>Phòng PH10</td>
+                        <td>dd/mm/yyyy</td>
+                        <td>1/1 hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Nhiệm vụ 3...</td>
+                        <td>Đ/c Nguyễn Văn Thanh - PGĐ</td>
+                        <td>Phòng PV01</td>
+                        <td>dd/mm/yyyy</td>
+                        <td>0/1 hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Nhiệm vụ 4...</td>
+                        <td>Đ/c Nguyễn Quốc Tuấn - PGĐ</td>
+                        <td>Phòng PC06, PC03</td>
+                        <td>dd/mm/yyyy</td>
+                        <td>2/2 hoàn thành</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row-1"></div>
+        </div>
+        <div class="row" id="row3">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <ul class="pagination justify-content-center" id="pg">
+                    <li class="page-item"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0);">...</a></li>
+                    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" id ="bt1">Xuất Excel</button>
+                <script>
+                    $("button").click(function(){
+                    $("#table").table2excel({
+                      name: "Worksheet Name",
+                      filename: "Danh Sách"" //do not include extension
+                    }); 
+                  });
+                </script>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" id="bt2">Bộ lọc</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>©2020 WEBSITE Ý KIẾN CHỈ ĐẠO, CA TP.HUẾ</div>
+</footer>
+</html>
